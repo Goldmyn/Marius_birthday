@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<title>MY BIRTHDAY APP</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="css/all.css" rel="stylesheet">
+	
+	<style type="text/css">
+
+		
+	body{
+		background-color: orange;
+		font-family: 'Cinzel', serif;
+	}
+	
+	#gstyle{
+		padding: 0.3em;
+		border-radius: 25px;
+		background-color: rgba(255, 235, 205,0.3);
+	}
+
+		
+	</style>
+</head>
+<body>
+
+<section class="vh-100" style="background-color: #eee;">
+  <div class="container ">
+    <div class="row d-flex justify-content-center align-items-center ">
+      <div class="col-lg-12 col-xl-11">
+        <div class="card text-black" style="border-radius: 25px;">
+          <div class="card-body p-md-5">
+            <div class="row justify-content-center">
+            	<div class="col-12">
+            		<h1 class="text-center fw-bolder mb-5 mx-1 mx-md-4 mt-4" id="gstyle"><span style="color: goldenrod;">GUEST</span> SIGN UP <span style="color: goldenrod;">FORM</span></h1>
+            	</div>
+              <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                
+
+                <form class="mx-1 mx-md-4">
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                    	<label class="form-label" for="form3Example1m">First name:</label>
+                      <input type="text" id="form3Example1m" class="form-control " value="" required />
+                     	<label class="form-label" for="form3Example1n">Last name:</label>
+                      <input type="text" id="form3Example1n" class="form-control " value="" required/>
+                      
+                      
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                    	<label class="form-label" for="emails">Your Email:</label>
+                      <input type="email" id="emails" class="form-control" value="" required/>
+                      
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                  	<i class="fa fa-phone fa-lg me-3 fa-fw" ></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <label class="form-label" for="phoneNumber">Phone Number:</label>
+                      <input type="number" id="phoneNumber" class="form-control" value="" required />
+                    </div>
+                  </div>
+
+
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+					<i class="fa fa-neuter fa-lg me-3 fa-fw" aria-hidden="true"></i>                   
+					 <div class="form-outline flex-fill mb-0">
+                      
+                    	<h6 class="mb-2 pb-1">Gender: </h6>
+
+                    	<div class="form-check form-check-inline">
+		                  	<i class="fa fa-male" aria-hidden="true"></i>
+		                    <input id="male" class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+		                      value="option1" checked/>
+		                    <label for="male" class="form-check-label" for="maleGender">Male</label>
+		                  </div>
+
+		                  <div class="form-check form-check-inline">
+		                  	<i class="fa fa-female" aria-hidden="true"></i>
+		                    <input id="female" class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+		                      value="option2" />
+		                    <label for="female" class="form-check-label" for="femaleGender">Female</label>
+		                  </div>      
+
+		                  <div class="form-check form-check-inline">
+		                    <input id="other" class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+		                      value="option3" />
+		                    <label for="other" class="form-check-label" for="otherGender">Other</label>
+		                  </div>
+
+                    </div>
+                  </div>
+
+
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                  	<i class="fa fa-globe fa-lg me-3 fa-fw" ></i>
+                  	
+                    <div class="form-outline flex-fill mb-0">
+                    
+                    	<label for="states" class="form-label select-label">Select State:</label>
+                  		<select id="states" class="select form-control" required>
+						    <option disabled selected>--- choose a state ---</option>
+						    <option value="Abia">Abia</option>
+						    <option value="Adamawa">Adamawa</option>
+						    <option value="AkwaIbom">Akwa Ibom</option>
+						    <option value="Anambra">Anambra</option>
+						    <option value="Bauchi">Bauchi</option>
+						    <option value="Bayelsa">Bayelsa</option>
+						    <option value="Benue">Benue</option>
+						    <option value="Borno">Borno</option>
+						    <option value="CrossRiver">Cross River</option>
+						    <option value="Delta">Delta</option>
+						    <option value="Ebonyi">Ebonyi</option>
+						    <option value="Edo">Edo</option>
+						    <option value="Ekiti">Ekiti</option>
+						    <option value="Enugu">Enugu</option>
+						    <option value="FCT">Federal Capital Territory</option>
+						    <option value="Gombe">Gombe</option>
+						    <option value="Imo">Imo</option>
+						    <option value="Jigawa">Jigawa</option>
+						    <option value="Kaduna">Kaduna</option>
+						    <option value="Kano">Kano</option>
+						    <option value="Katsina">Katsina</option>
+						    <option value="Kebbi">Kebbi</option>
+						    <option value="Kogi">Kogi</option>
+						    <option value="Kwara">Kwara</option>
+						    <option value="Lagos">Lagos</option>
+						    <option value="Nasarawa">Nasarawa</option>
+						    <option value="Niger">Niger</option>
+						    <option value="Ogun">Ogun</option>
+						    <option value="Ondo">Ondo</option>
+						    <option value="Osun">Osun</option>
+						    <option value="Oyo">Oyo</option>
+						    <option value="Plateau">Plateau</option>
+						    <option value="Rivers">Rivers</option>
+						    <option value="Sokoto">Sokoto</option>
+						    <option value="Taraba">Taraba</option>
+						    <option value="Yobe">Yobe</option>
+						    <option value="Zamfara">Zamfara</option>
+						    <option value="Foreign">Foreign</option>
+						</select>
+
+                    </div>
+                  </div>
+
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                  	<i class="fa fa-gift fa-lg me-3 fa-fw" ></i>
+                  	
+                    <div class="form-outline flex-fill mb-0">
+                    
+                    	<label for="gift" class="form-label select-label">Select Your Gift:</label>
+                  		<select id="gift" class="select form-control" required>
+                  			<option disabled selected>--- choose gift ---</option>
+						    <option value="cash">Cash</option>
+						    <option value="blender">Blender</option>
+						    <option value="cloth">Cloth</option>
+						    <option value="shoe">Shoe</option>
+						    <option value="car">Car</option>
+						   
+                  		</select>
+
+                    </div>
+                  </div>
+   
+                 
+             
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline  flex-fill mb-0">
+                     	<label class="form-label" for="password">Choose Password</label>
+					 	<input name="passwordd" type="password" value="" class="input form-control" id="password"   required  />                    
+					</div>
+                    <div class=" mt-4 ms-2">
+	                	<span class="input-group-text" onclick="password_show_hide();">
+	                  		<i class="fas fa-eye" id="show_eye"></i>
+	                  		<i class="fas fa-eye-slash d-none" id="hide_eye"></i>
+	                	</span>
+	              	</div>
+                  </div>
+
+                  <div class="form-check d-flex justify-content-center mb-5">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" required/>
+                    <label class="form-check-label" for="form2Example3">
+                      I agree all statements in <a href="#!">Terms of service</a>
+                    </label>
+                  </div>
+
+                  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                    <button type="submit" class="btn btn-primary btn-lg">Register</button>
+                  </div>
+
+                </form>
+
+              </div>
+
+              <div class="col-md-10 col-lg-6 col-xl-7 align-items-center order-1 order-lg-2">
+
+                <img src="gift-boxes-white-background.jpg"
+                  class="img-fluid d-none d-sm-block" alt="Sample image">
+                <img src="gift-boxes-white-background.jpg"
+                  class="img-fluid" alt="Sample image">
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ 
+
+
+
+
+	
+	<!-- JS FILES -->
+	<script type="text/javascript" language="javascript">
+		function password_show_hide() {
+		  var x = document.getElementById("password");
+		  var show_eye = document.getElementById("show_eye");
+		  var hide_eye = document.getElementById("hide_eye");
+		  hide_eye.classList.remove("d-none");
+		  if (x.type === "password") {
+		    x.type = "text";
+		    show_eye.style.display = "none";
+		    hide_eye.style.display = "block";
+		  } else {
+		    x.type = "password";
+		    show_eye.style.display = "block";
+		    hide_eye.style.display = "none";
+		  }
+	}		
+	</script>
+	<script type="text/javascript" src="js/bootstrap.bundle.js" language="javascript">
+		
+	</script>
+</body>
+</html>
+
+
